@@ -1,0 +1,123 @@
+/* Your styles here */
+/* impostazioni generali */
+b, h1 {
+    font-weight: bold;
+    color: #25a2c3 ;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5 ;
+    text-align: center;
+    display: block;
+}
+h1 {
+    font-size: xx-large;
+}
+h2 {
+    font-weight: bold;
+    color: white !important ; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+body {
+    color: #393d41 ; 
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+ 
+/* header*/
+header {
+    background-color: black;
+    text-align: center ;
+    padding: 5vw;
+}
+#logo {
+    width: 30vw ;
+}
+
+
+/* main*/
+button {
+    background-color: #f04c2f ;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    padding: 9px 22px;
+    border-radius: 7px;
+}
+#sectionTestimonianze {
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+#pTestimonianza {
+    font-style: italic;
+    margin: 2rem 0;
+}
+#pNome {
+    font-size: x-large;
+}
+#pRuolo {
+    font-size:small;
+}
+#sectionTop {
+    background-image: url("../images/banner.jpg");
+    background-size: cover ;
+    text-align: center;
+    padding: 4rem 3.5rem;
+}
+#sectionTop > p {
+    margin: 1rem 0rem;
+}
+#sectionPresentazione {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+#sectionPresentazione > p {
+    margin: 1rem 0;
+}
+#notebook {
+    border-radius: 100%;
+    object-fit: contain;
+    width: 90%;
+    margin: 2.5rem 0;
+}
+.imgScheda {
+    width: 100%;
+    
+}
+#sectionSchede {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.divScheda {
+    border:#dee1e3 1px solid ;
+    margin-bottom: 2rem;
+}
+.divScheda > p {
+    padding: 1rem;
+}
+.divScheda > b {
+    margin-top: 1rem;
+}
+/* footer*/
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    text-align: center;
+    padding: 1rem;
+    
+}
+footer > div > a {
+    color: #c8e7f0 ;
+}
+footer > div {
+    margin: 2rem 0;
+}
+footer > hr {
+    color: #c8e7f0;
+    width: 70%;
+    margin-bottom: 2rem;
+}
