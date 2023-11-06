@@ -45,6 +45,7 @@ button {
     border: 0;
     padding: 9px 22px;
     border-radius: 7px;
+    cursor: pointer;
 }
 #sectionTestimonianze {
     background-color: #e22d0e;
@@ -120,4 +121,9 @@ footer > hr {
     color: #c8e7f0;
     width: 70%;
     margin-bottom: 2rem;
+}
+@media only screen and (min-width: 600px) {
+  #logo {
+    width: 10vw;
+  }
 }
